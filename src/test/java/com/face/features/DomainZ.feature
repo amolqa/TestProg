@@ -1,5 +1,5 @@
 Feature: DomainZ 
-@FunctionalAutomation
+@FunctionalAutomation1
 Scenario Outline: A customer recharge prepaid account from both console and DomainZ using existing credit card 	
 
 	Given Enter User name <userName>
@@ -19,7 +19,7 @@ Examples:
 	| userName   | Password | AccountReference | prepaidamount | prepaidsuccess                |  
 	| fnurani    | comein22 | PAY-308          | 15            | Credit purchased successfully | 
 	
-@FunctionalAutomation
+@FunctionalAutomation1
 Scenario Outline: A customer recharge prepaid account from console using new credit card 	
 
 	Given Enter User name <userName>
@@ -46,7 +46,7 @@ Examples:
 	| fnurani    | comein22 | PAY-308          | Test User - VISA | 4111111111111111 | 01              | 2019           | 456     | 10            | Credit purchased successfully | 
 
 
-@FunctionalAutomation
+@FunctionalAutomation1
 Scenario Outline: A customer recharge prepaid account from both console and DomainZ using new credit card 	
 
 	Given Enter User name <userName>
