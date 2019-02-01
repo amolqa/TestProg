@@ -61,12 +61,12 @@ Scenario Outline: A customer recharge prepaid account from both console and Doma
 	Then Check using new credit card
 	Then Enter Card owner name <cardOwner>
 	Then Enter domainZ Card number <cardNumber>
-	Then Select expiry month <expiryMonth>
-	Then Select expiry year <expiryYear>
-	Then Enter domainZ CVV number  <CVVnumber>
-	Then Enter prepaid amount <prepaidamount>
-	Then Click on submit button 
-	
+#	Then Select expiry month <expiryMonth>
+#	Then Select expiry year <expiryYear>
+#	Then Enter domainZ CVV number  <CVVnumber>
+#	Then Enter prepaid amount <prepaidamount>
+#	Then Click on submit button 
+#	
 
 Examples:
 	| userName   | Password | AccountReference | cardOwner        | cardNumber       | expiryMonth | expiryYear | CVVnumber | prepaidamount | prepaidsuccess                |  
